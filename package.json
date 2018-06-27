@@ -1,0 +1,19 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "测试前端持续集成工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiqinhaian/CITest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiqinhaian/CITest/issues"
+  },
+  "homepage": "https://github.com/aiqinhaian/CITest#readme"
+}
