@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo 'test success'"
+    "build": "echo 'build success'"
   },
   "repository": {
     "type": "git",
