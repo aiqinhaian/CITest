@@ -18,7 +18,8 @@ after_script:
   - git config user.email "qin891113@yeah.net"
   - git add .
   - git commit -m "Update docs"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  - git remote add origin "https://github.com/aiqinhaian/CITest2.git"
+  - git push --set-upstream origin master -f
 env:
   global:
     - GH_REF: github.com:aiqinhaian/CITest2.git
