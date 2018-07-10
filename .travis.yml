@@ -6,9 +6,11 @@ install:
   npm --version
   npm install --registry http://registry.npmjs.org
 script:
-    - npm install
     - npm run test
     - npm run build
+branches:
+  only:
+    - master 
 after_script:
   - cd ./dist
   - git init
@@ -17,3 +19,6 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+env:
+  global:
+    - GH_REF: github.com:aiqinhaian/CITest2.git
