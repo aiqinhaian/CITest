@@ -17,5 +17,3 @@ after_script:
   - git add .
   - git commit -m "Update docs"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
-global:
-   - GH_REF: "github.com:aiqinhaian/CITest2.git"
