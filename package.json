@@ -4,7 +4,7 @@
   "description": "测试前端持续集成工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'test success 1!' && exit 1",
+    "test": "echo 'test success 1!'",
     "build": "echo 'build success 1!'"
   },
   "repository": {
